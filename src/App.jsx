@@ -3,6 +3,8 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Courses from './components/Courses';
 import Prices from './components/Prices';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -12,7 +14,8 @@ function App() {
       <Hero />
       <Courses />
       <Prices />
-      <p>This is the App Component</p>
+      <Contact />      
+      <Footer />
     </div>
   )
 };

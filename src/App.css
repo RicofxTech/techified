@@ -2,4 +2,249 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* Header */
+.header-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;    
+    margin: 50px 0px;    
+}
+
+.hd1 {
+    color: rgb(60, 90, 190);
+    font-weight: 1800;
+    font-size: 24px;
+}
+
+.links {
+    list-style-type: none;
+    font-weight: 600;
+}
+
+.links1 {
+    display: inline;
+    margin-right: 10px;
+}
+
+.reg {
+    padding: 10px 12px 10px 12px;
+    background-color: white;
+    color: rgb(70, 90, 200);
+    border:rgb(70, 90, 200);
+    border-style: solid;
+    width: 120px;
+    font-size: 11px;
+    font-weight: 900;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    margin: 40px;
+    padding: 40px;
+   
+}
+
+#head1 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 80px;
+}
+
+#head2 {
+    font-size: 52px;
+    font-weight: 900;
+}
+
+.para-div {
+    width: 700px;
+}
+#para1 {
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-right: 230px;
+
+}
+
+.reg2 {
+    padding: 10px 12px 10px 12px;
+    background-color: rgb(70, 90, 200);
+    color: white;
+    border: none;
+    width: 120px;
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+ .hero-pic {
+    width: 750px;
+}
+
+.student {    
+    width: 500px;
+    object-fit: cover;
+    position: relative;   
+}
+
+.ikon1 {
+    width: 40px;
+    position: absolute;
+    top: 170px;
+    left: 860px;
+}
+.ikon2 {
+    width: 40px;
+    position: absolute;
+    top: 280px;
+    left: 840px;
+}
+.ikon3 {
+    width: 40px;
+    position: absolute;
+    top: 400px;
+    left: 780px;
+}
+.ikon4 {
+    width: 40px;
+    position: absolute;
+    top: 210px;
+    left: 1100px;
+}
+.ikon5 {
+    width: 40px;
+    position: absolute;
+    top: 340px;
+    left: 1150px;
+}
+
+
+/*Courses */
+.courses {
+display: flex;
+flex-direction: column;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.offer {
+    max-width: 600px;
+    
+}
+
+.four-boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blue-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: skyblue;
+    margin: 10px;
+    height: 450px;
+    padding: 40px;
+    text-align: justify;
+}
+
+.round-box {
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    border-radius: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.course-img {
+    width: 100px;
+    height: 100px;
+}
+
+.title {
+    padding-bottom: 30px;
+    background-color: skyblue;
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+
+/* CONTACT */
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: start;
+}
+
+.contact {
+    margin-bottom: 40px;
+}
+
+.input-div {
+    display: flex;
+    flex-direction: column;
+}
+.label-text {
+    color: rgb(70, 90, 200);
+    font-weight: 700;
+    align-self: flex-start;
+    font-size: 12px;
+}
+
+.textbox, .textbox2 {
+    width:300px;
+    height: 40px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    background-color: #ccc;
+    border-radius: 4px;
+    resize: none;
+    margin-bottom: 12px;
+  }
+
+.textbox2 {
+    height: 120px;
+ 
+}
+
+/* FOOTER */
+.foot {
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    padding: 16px;
+    }
+
+.left-foot {
+    margin-right: 30px;
+    text-align: center;
+}
+
+.right-foot {
+    margin-left: 30px;
+    text-align: center;
+}
+
+.foot-title {
+    color: rgb(70, 90, 200);
+    font-weight: 900;
+    align-self: flex-start;
 }
