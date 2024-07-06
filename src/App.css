@@ -1,8 +1,8 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial;
 }
 
 /* Header */
@@ -41,7 +41,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     border:rgb(70, 90, 200);
     border-style: solid;
     width: 120px;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 900;
 }
 
@@ -50,7 +50,6 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     display: flex;
     margin: 40px;
     padding: 40px;
-   
 }
 
 #head1 {
@@ -80,7 +79,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     color: white;
     border: none;
     width: 120px;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 600;
     margin-bottom: 50px;
 }
@@ -140,6 +139,10 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
 
+h1 {
+    margin-bottom: 20px;
+}
+
 .offer {
     max-width: 600px;
     
@@ -148,6 +151,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .four-boxes {
     display: flex;
     justify-content: space-around;
+    padding: 40px;
 }
 
 .blue-box {
@@ -157,8 +161,8 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
     width: 25%;
     background-color: skyblue;
-    margin: 10px;
-    height: 450px;
+    margin: 20px;
+    height: 500px;
     padding: 40px;
     text-align: justify;
 }
@@ -175,8 +179,8 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .course-img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
 .title {
@@ -184,9 +188,85 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: skyblue;
     font-weight: bold;
     font-size: larger;
+    text-align: center;
 }
 
+/* PRICES */
+.price-div {
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+}
 
+.price-title-block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.price-intro {
+    width: 600px;
+    font-size: 14px;
+    justify-content: center;
+    margin-left: 400px;
+}
+.course-price {
+    margin: 40px 0px 40px 300px;
+}
+
+.course-header {
+    flex-direction: row;
+    display: inline;
+}
+
+.sect {
+    padding-bottom: 30px;
+}
+
+.bullet1 {
+    display: inline;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    padding: 5px 10px;
+    margin-right: 65px;
+    margin-top: 50px;
+    border: none;
+}
+.course-title, .course-duration {
+    display: inline;
+    margin-right: 50px;
+    font-size: 14px;
+    color: rgb(70, 90, 200);
+}
+
+.course-duration {
+    font-weight: 400;
+    color: gray;
+}
+
+.course-details {
+    font-size: 14px;
+    padding-bottom: 5px;
+    margin-left: 100px;
+    width: 600px;
+}
+
+.discount {
+    font-size: 11px;
+    margin-left: 100px;
+}
+
+.amount {
+    padding: 10px 30px;
+    margin-left: 100px;
+    background-color: gray;
+    font-weight: 800;
+    border-radius: 8px;
+    border: none;
+}
 
 /* CONTACT */
 .form {
@@ -194,6 +274,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     flex-direction: column;
     justify-content: center;
     align-self: start;
+    padding-top: 50px;
 }
 
 .contact {

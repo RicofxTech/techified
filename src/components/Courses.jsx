@@ -1,4 +1,9 @@
 import React from 'react';
+import Frontend from '../assets/logos/frontend.jpg';
+import Programming from '../assets/logos/database.png';
+import Dbase from '../assets/logos/database.png';
+import Cybersec from '../assets/logos/cybersec.jpg';
+
 
 const Courses = () => {
     return (
@@ -9,7 +14,7 @@ const Courses = () => {
             <div className='four-boxes'> 
                 <div className='blue-box'>
                     <div className='round-box'>
-                        <img className='course-img' src='src/assets/logos/frontend.jpg' />
+                        <img className='course-img' src= {Frontend} />
                     </div>
                     <h5 className='title'>Front-end Development</h5>
                     <p>Learn the core systems of building out the interface of website. Using HTML & CSS, you can achieve the beautiful site your customer ordered.</p>
@@ -17,15 +22,15 @@ const Courses = () => {
                 
                 <div className='blue-box'>
                     <div className='round-box'>
-                        <img className='course-img' src='src/assets/logos/programming.jfif' />
+                        <img className='course-img' src= {Programming} />
                     </div>
                     <h5 className='title'>Python Programming</h5>
-                    <p>Uncover the fundamentals of the most exciting programming language, and build applications that are both useful and commercial.</p>
+                    <p>Uncover the essential fundamentals of the most exciting programming language, and build applications that are both useful and commercial.</p>
                 </div>
 
                 <div className='blue-box'>
                     <div className='round-box'>
-                        <img className='course-img' src='src/assets/logos/database.png' />
+                        <img className='course-img' src= {Dbase} />
                     </div>
                     <h5 className='title'>Data Analytics</h5>
                     <p>Businesses are looking for professionals that can provide them insights into business success by unlocking the gems in their corporate data.</p>
@@ -33,10 +38,12 @@ const Courses = () => {
 
                 <div className='blue-box'>
                     <div className='round-box'>
-                        <img className='course-img' src='src/assets/logos/cybersec2.jpg' />
+                        <img className='course-img' src= {Cybersec} />
                     </div>
                     <h5 className='title'>Intro to Cyber Security & Ethical Hacking</h5>
-                    <p>Learn the core systems of building out the interface of website. Using HTML & CSS, you can achieve the beautiful site your customer ordered.</p>
+                    <p>Get into the world of internet security, secure your own device, and prepare yourself for the role of white-hat hacking or cyber policing.
+                        
+                    </p>
                 </div>
             </div>
 
