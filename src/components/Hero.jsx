@@ -14,7 +14,7 @@ const Hero = () => {
             <div className='hero-text p-[1rem] text-center lg:text-start'>
                 <h3 id=' md:text-[40px] text-[25px] font-[900] mt-[80px]'>WELCOME TO</h3>
                 <h1 id='md:text-[52px] text-[30px] font-[900]'>ADAPTIVE LEARNING</h1>
-                <div className='para-div'>
+                <div className='lg:w-[700px] w-[100%]'>
                     <p id='para1'>We know that 90 days is enough to make a notable change in your life. So change the way you learn, and you can turn around the way you earn.</p>
                 </div>
                 <button className='reg2'>REGISTER</button>
