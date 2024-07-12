@@ -46,32 +46,15 @@
 }
 
 /* Hero */
-.hero {
-    display: flex;
-    margin: 40px;
-    padding: 40px;
-}
 
-#head1 {
-    font-size: 40px;
-    font-weight: 900;
-    margin-top: 80px;
-}
 
-#head2 {
-    font-size: 52px;
-    font-weight: 900;
-}
+
+/* deleted head 1 and 2,para1 */
 
 .para-div {
     width: 700px;
 }
-#para1 {
-    font-weight: 600;
-    margin-bottom: 30px;
-    margin-right: 230px;
 
-}
 
 .reg2 {
     padding: 10px 12px 10px 12px;
@@ -130,6 +113,7 @@
 display: flex;
 flex-direction: column;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+width: 100%;
 }
 
 .courses {
@@ -148,18 +132,18 @@ h1 {
     
 }
 
-.four-boxes {
+/* .four-boxes {
     display: flex;
     justify-content: space-around;
     padding: 40px;
-}
+} */
 
 .blue-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 25%;
+  
     background-color: skyblue;
     margin: 20px;
     height: 500px;
@@ -196,6 +180,9 @@ h1 {
     background-color: skyblue;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    padding: 10px;
+  
 }
 
 .price-title-block {
@@ -206,13 +193,9 @@ h1 {
 }
 
 .price-intro {
-    width: 600px;
     font-size: 14px;
     justify-content: center;
-    margin-left: 400px;
-}
-.course-price {
-    margin: 40px 0px 40px 300px;
+   
 }
 
 .course-header {
@@ -222,6 +205,11 @@ h1 {
 
 .sect {
     padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: start; 
+    justify-content: start;
 }
 
 .bullet1 {
@@ -250,18 +238,16 @@ h1 {
 .course-details {
     font-size: 14px;
     padding-bottom: 5px;
-    margin-left: 100px;
-    width: 600px;
+    width: 100%;
 }
 
 .discount {
     font-size: 11px;
-    margin-left: 100px;
+ padding-top: 10px;
 }
 
 .amount {
     padding: 10px 30px;
-    margin-left: 100px;
     background-color: gray;
     font-weight: 800;
     border-radius: 8px;

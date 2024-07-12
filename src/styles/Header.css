@@ -1,0 +1,34 @@
+
+
+.hd2{
+display: flex;
+
+}
+
+
+
+hide{
+    display: block;
+}
+
+@media screen  and (max-width: 780px){
+    
+
+.hd2{
+   
+    background:#87ceeb ;
+    height: 60vh;
+    width: 100%;
+    position: absolute ;
+    left: 00px;
+    top: 100px;
+    right: 0;
+    z-index: 10;
+    display: none;
+}
+
+hide{
+    display: none;
+}
+
+}

@@ -1,14 +1,16 @@
-import React from 'react';
+
 
 const Prices = () => {
     return (
-        <div className='price-div'>
+        <div className='price-div items-center justify-center'>
             <div className='price-title-block'>
-                <h1 className='price-heading'>Our Prices</h1>
+                <h1 className='price-heading font-[700] text-[32px]'>Our Prices</h1>
                 <p className='price-intro'>Choosing to offer unbeatable pricing to make information technology awareness a reality. We seek to make minds blossoms for global impact.</p>
             </div>
         
-            <div className='course-price'>
+            <div className='course-price  pt-[2rem]'>
+
+
                 <div className='sect'>
                     <div className='course-header'>
                         <div className='bullet1'>o</div>
@@ -42,6 +44,8 @@ const Prices = () => {
                     <p className='discount'>10% discount to the first 10 persons to register.</p>
                 </div>
             </div>
+
+            
         </div>
 
 

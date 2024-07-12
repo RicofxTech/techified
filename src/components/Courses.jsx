@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Frontend from '../assets/logos/frontend.jpg';
 import Programming from '../assets/logos/database.png';
 import Dbase from '../assets/logos/database.png';
@@ -8,10 +8,13 @@ import Cybersec from '../assets/logos/cybersec.jpg';
 const Courses = () => {
     return (
         <div className='courses'>
-            <h1>Our Courses</h1>
-            <p className='offer'>We offer solid foundational courses that you can learn in easy steps, and journey your way into a tech experience that will keep you relevant.</p>
+            <h1  className="text-[30px] font-[700]">Our Courses</h1>
+    <p className='offer'>We offer solid foundational courses that you can learn in
+         easy steps, and journey your way into a tech experience that will keep you relevant.</p>
             
-            <div className='four-boxes'> 
+
+            {/* four-boxes styling starts here */}
+            <div className=' flex flex-col md:flex-row flex-wrap items-center lg:flex-nowrap w-[100%] '> 
                 <div className='blue-box'>
                     <div className='round-box'>
                         <img className='course-img' src= {Frontend} />
@@ -45,6 +48,7 @@ const Courses = () => {
                         
                     </p>
                 </div>
+
             </div>
 
         </div>
