@@ -240,7 +240,7 @@ h1 {
 
 .discount {
     font-size: 11px;
- padding-top: 10px;
+    padding-top: 10px;
 }
 
 .amount {
@@ -260,8 +260,9 @@ h1 {
     padding-top: 50px;
 }
 
-.contact {
-    margin-bottom: 40px;
+.contact-sec {
+   
+    margin-top: 40px;
 }
 
 .input-div {

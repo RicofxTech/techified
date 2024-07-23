@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <div className='courses'>
             <div className='contact-sec'>
-                <h1 className='contact'>Contact Us</h1>
+                <h1 className="text-[30px] font-[700]">Contact Us</h1>
             </div>
             <div>
                 <form action="">

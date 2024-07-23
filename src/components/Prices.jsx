@@ -2,7 +2,7 @@
 
 const Prices = () => {
     return (
-        <div className='price-div items-center justify-center'>
+        <div className='price-div items-center justify-center margin-bottom: 3rem'>
             <div className='price-title-block'>
                 <h1 className='price-heading font-[700] text-[32px]'>Our Prices</h1>
                 <p className='price-intro'>Choosing to offer unbeatable pricing to make information technology awareness a reality. We seek to make minds blossoms for global impact.</p>

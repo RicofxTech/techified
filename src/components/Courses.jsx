@@ -1,6 +1,6 @@
 
 import Frontend from '../assets/logos/frontend.jpg';
-import Programming from '../assets/logos/database.png';
+import Programming from '../assets/logos/programming.png';
 import Dbase from '../assets/logos/database.png';
 import Cybersec from '../assets/logos/cybersec.jpg';
 
